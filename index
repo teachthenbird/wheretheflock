@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to BirdWatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to BirdWatch</h1>
+        <p>Your ultimate bird watching companion</p>
+    </header>
+    <main>
+        <section class="welcome">
+            <h2>A Haven for Bird Enthusiasts</h2>
+            <p>Discover and share your birdwatching experiences with our community.</p>
+            <button onclick="document.getElementById('fileInput').click()">Upload Your Lifelist</button>
+            <input type="file" id="fileInput" style="display: none;" />
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 BirdWatch. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
